@@ -1,0 +1,188 @@
+<questionnaire id="[Survey Group Id]">
+  <title>[Name]</title>
+  <investigator/>
+  <dataCollector/>
+  <questionnaireInfo>
+    <position>before</position>
+    <text>Survey Title</text>
+    <administration>self</administration>
+  </questionnaireInfo>
+  <questionnaireInfo>
+    <position>before</position>
+    <text>[Date]</text>
+    <administration>self</administration>
+  </questionnaireInfo>
+  <questionnaireInfo>
+    <position>after</position>
+    <text>Thank You</text>
+    <administration>self</administration>
+  </questionnaireInfo>
+  <section id="16">
+    <sectionInfo>
+      <position>title</position>
+      <text>[Type] at [Location] by [Instructor]</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>Rate your experience</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Were you exposed to new ideas?</text>
+      <response varName="B03">
+        <fixed rotate="true">
+          <category>
+            <value>1</value>
+            <label>Not at all</label>
+			<label>1</label>
+          </category>
+          <category>
+            <value>2</value>
+            <label>2</label>
+          </category>
+          <category>
+            <value>3</value>
+            <label>3</label>
+          </category>
+          <category>
+            <value>4</value>
+            <label>4</label>
+          </category>
+          <category>
+            <value>5</value>
+            <label>Very much so</label>
+          </category>
+        </fixed>
+      </response>
+    </question>
+	<question>
+	<text>How did you find out about this training?</text>
+		<response varName="trainare">
+			<fixed rotate="true">
+				<category>
+					<label>CNE Website</label>
+					<value>1</value>
+				</category>
+				<category>
+					<label>CNE Newsletter</label>
+					<value>2</value>
+				</category>
+				<category>
+					<label>Hook</label>
+					<value>4</value>
+				</category>
+				<category>
+					<label>C-ville Weekly</label>
+					<value>8</value>
+				</category>
+				<category>
+					<label>C'ville Calendar</label>
+					<value>16</value>
+				</category>
+				<category>
+					<label>Daily Progress</label>
+					<value>32</value>
+				</category>
+				<category>
+					<label>Chamber Bits</label>
+					<value>64</value>
+				</category>
+				<category>
+					<label>Facebook</label>
+					<value>128</value>
+				</category>
+				<category>
+					<label>Linked-In</label>
+					<value>256</value>
+				</category>
+				<category>
+					<label>Other</label>
+					<value>512</value>
+				</category>
+			</fixed>
+		</response>
+	</question>
+	<question>
+      <text>Did today give you ideas or information that you can share with others in your organization?</text>
+      <response varName="B04">
+        <fixed rotate="true">
+          <category>
+            <value>1</value>
+            <label>Not at all</label>
+          </category>
+          <category>
+            <value>2</value>
+            <label>2</label>
+          </category>
+          <category>
+            <value>3</value>
+            <label>3</label>
+          </category>
+          <category>
+            <value>4</value>
+            <label>4</label>
+          </category>
+          <category>
+            <value>5</value>
+            <label>Very much so</label>
+          </category>
+        </fixed>
+      </response>
+    </question>
+	<question>
+      <text>Did this training meet your expectations?</text>
+      <response varName="B05">
+        <fixed rotate="true">
+          <category>
+            <value>1</value>
+            <label>Not at all</label>
+          </category>
+          <category>
+            <value>2</value>
+            <label>2</label>
+          </category>
+          <category>
+            <value>3</value>
+            <label>3</label>
+          </category>
+          <category>
+            <value>4</value>
+            <label>4</label>
+          </category>
+          <category>
+            <value>5</value>
+            <label>Very much so</label>
+          </category>
+        </fixed>
+      </response>
+    </question>
+	<question>
+      <text>Was the time interactive enough?</text>
+      <response varName="B06">
+        <fixed rotate="true">
+          <category>
+            <value>1</value>
+            <label>Not at all</label>
+          </category>
+          <category>
+            <value>2</value>
+            <label>2</label>
+          </category>
+          <category>
+            <value>3</value>
+            <label>3</label>
+          </category>
+          <category>
+            <value>4</value>
+            <label>4</label>
+          </category>
+          <category>
+            <value>5</value>
+            <label>Very much so</label>
+          </category>
+        </fixed>
+      </response>
+    </question>	
+  </section>
+</questionnaire>

@@ -1,0 +1,201 @@
+<questionnaire id="%s">
+  <title>Test</title>
+  <investigator/>
+  <dataCollector/>
+  <questionnaireInfo>
+    <position>before</position>
+    <text>%s</text>
+    <administration>self</administration>
+  </questionnaireInfo>
+  
+  <section id="16">
+    <sectionInfo>
+      <position>title</position>
+      <text>%s at %s by %s, on %s</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Were you exposed to new ideas?</text>
+      <response varName="exposed">
+        <fixed rotate="true">
+          <category>
+            <value>1</value>
+            <label>Not at all</label>
+			<label>1</label>
+          </category>
+          <category>
+            <value>2</value>
+            <label>2</label>
+          </category>
+          <category>
+            <value>3</value>
+            <label>3</label>
+          </category>
+          <category>
+            <value>4</value>
+            <label>4</label>
+          </category>
+          <category>
+            <value>5</value>
+            <label>Very much so</label>
+          </category>
+        </fixed>
+      </response>
+    </question>
+	<question>
+      <text>Did today give you ideas or information that you can share with others in your organization?</text>
+      <response varName="ideas">
+        <fixed rotate="true">
+          <category>
+            <value>1</value>
+            <label>Not at all</label>
+          </category>
+          <category>
+            <value>2</value>
+            <label>2</label>
+          </category>
+          <category>
+            <value>3</value>
+            <label>3</label>
+          </category>
+          <category>
+            <value>4</value>
+            <label>4</label>
+          </category>
+          <category>
+            <value>5</value>
+            <label>Very much so</label>
+          </category>
+        </fixed>
+      </response>
+    </question>
+	<question>
+      <text>Did this training meet your expectations?</text>
+      <response varName="expectations">
+        <fixed rotate="true">
+          <category>
+            <value>1</value>
+            <label>Not at all</label>
+          </category>
+          <category>
+            <value>2</value>
+            <label>2</label>
+          </category>
+          <category>
+            <value>3</value>
+            <label>3</label>
+          </category>
+          <category>
+            <value>4</value>
+            <label>4</label>
+          </category>
+          <category>
+            <value>5</value>
+            <label>Very much so</label>
+          </category>
+        </fixed>
+      </response>
+    </question>
+	<question>
+      <text>Was the time interactive enough?</text>
+      <response varName="interactivity">
+        <fixed rotate="true">
+          <category>
+            <value>1</value>
+            <label>Not at all</label>
+          </category>
+          <category>
+            <value>2</value>
+            <label>2</label>
+          </category>
+          <category>
+            <value>3</value>
+            <label>3</label>
+          </category>
+          <category>
+            <value>4</value>
+            <label>4</label>
+          </category>
+          <category>
+            <value>5</value>
+            <label>Very much so</label>
+          </category>
+        </fixed>
+      </response>
+    </question>	
+	<question>
+	<text>How did you find out about this training?</text>
+		<response varName="source">
+			<fixed rotate="true">				
+				<category>
+					<label>Cville Weekly</label>
+					<value>8</value>
+				</category>
+				<category>
+					<label>CNE Website</label>
+					<value>1</value>
+				</category>
+				<category>
+					<label>Hook</label>
+					<value>4</value>
+				</category>
+				<category>
+					<label>Cville Calendar</label>
+					<value>16</value>
+				</category>
+				<category>
+					<label>Facebook</label>
+					<value>128</value>
+				</category>
+				<category>
+					<label>Daily Progress</label>
+					<value>32</value>
+				</category>
+				<category>
+					<label>Chamber Bits</label>
+					<value>64</value>
+				</category>
+				<category>
+					<label>LinkedIn</label>
+					<value>256</value>
+				</category>
+				<category>
+					<label>CNE Newsletter</label>
+					<value>2</value>
+				</category>
+				<category>
+					<label>Other</label>
+					<value>512</value>
+				</category>
+			</fixed>
+		</response>
+	</question>
+	<question>
+	<text>%s</text>
+		<response varName="text1">
+			<free>
+				<format>longtext</format>
+				<length>22</length>
+			</free>
+		</response>
+	</question>
+	<question>
+	<text>%s</text>
+		<response varName="text2">
+			<free>
+				<format>longtext</format>
+				<length>22</length>
+			</free>
+		</response>
+	</question>
+	<question>
+	<text>%s</text>
+		<response varName="text3">
+			<free>
+				<format>longtext</format>
+				<length>22</length>
+			</free>
+		</response>
+	</question>
+  </section>
+</questionnaire>
